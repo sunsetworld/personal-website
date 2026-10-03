@@ -29,3 +29,9 @@ h3, p {
     line-height: 2;
     letter-spacing: 1px;
 }
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
