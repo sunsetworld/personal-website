@@ -24,5 +24,6 @@ ul li a.active {
     background-color: #35FF69;
     color: black;
     border-bottom: 2px solid white;
+    font-weight: bold;
 }
 

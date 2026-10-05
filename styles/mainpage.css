@@ -2,12 +2,28 @@ html {
     background-color: #00fcff;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
-    width: 600px;
-    margin: 0 auto;
+    min-block-size: 100svb;
+    display: grid;
+    place-items: center;
+    margin: 0;
+}
+
+.web-page {
     background-color: #279AF1;
-    padding: 0 20px 20px 20px;
-    border: 5px solid black;
+    border: 1em solid black;
+    inline-size: min(50rem, 100% - 3em);
+    inline-size: calc-size(stretch, min(50rem, size - 3em));
+    padding: 1em;
+    .top-page {
+        text-align: center;
+        font-size: 2rem;
+        font-weight: bold;
+    }
 }
 
 h1 {
@@ -34,4 +50,8 @@ img {
     display: block;
     margin: 0 auto;
     max-width: 100%;
+}
+
+.main-page-content {
+    
 }
